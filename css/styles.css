@@ -37,6 +37,7 @@ body {
       transparent 26%
     ),
     linear-gradient(180deg, var(--cream), #fffaf2 44%, var(--paper));
+  background: var(--cream);
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -61,6 +62,11 @@ a {
 }
 .wp-section {
   padding: 78px 0;
+  width: min(1120px, calc(100% - 40px));
+  margin: auto;
+}
+.wp-section {
+  padding: 92px 0;
 }
 .linia-header {
   position: sticky;
@@ -94,6 +100,7 @@ a {
   margin-left: auto;
   display: flex;
   gap: clamp(8px, 1vw, 14px);
+  gap: 14px;
   align-items: center;
 }
 .linia-nav a,
@@ -160,6 +167,10 @@ h1 {
 }
 h2 {
   font-size: clamp(1.9rem, 3.4vw, 3rem);
+  font-size: clamp(2.5rem, 6vw, 5.6rem);
+}
+h2 {
+  font-size: clamp(2rem, 4vw, 3.4rem);
 }
 .lead {
   font-size: 1.2rem;
@@ -201,21 +212,14 @@ h2 {
   padding: 0.55rem 0.8rem;
   border-radius: 999px;
 }
-.visual-sprite {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-}
 .visual-placeholder {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius);
   min-height: 200px;
+  min-height: 250px;
   box-shadow: var(--shadow);
   background: var(--paper);
-  background-position: center;
-  background-size: cover;
   isolation: isolate;
 }
 .visual-placeholder:before {
@@ -227,15 +231,6 @@ h2 {
     rgba(255, 245, 232, 0.1),
     rgba(93, 105, 75, 0.16)
   );
-  pointer-events: none;
-  z-index: 2;
-}
-.visual-inline {
-  display: block;
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
   z-index: 1;
 }
 .visual-placeholder img {
@@ -247,43 +242,10 @@ h2 {
   object-fit: cover;
   object-position: center;
   transform: scale(1.01);
-  z-index: 0;
-}
-.visual-placeholder--journey {
-  background-image: url("../assets/placeholders/journey.svg");
-}
-.visual-placeholder--aquarelle {
-  background-image: url("../assets/placeholders/aquarelle.svg");
-}
-.visual-placeholder--dessin {
-  background-image: url("../assets/placeholders/dessin.svg");
-}
-.visual-placeholder--family {
-  background-image: url("../assets/placeholders/family.svg");
-}
-.visual-placeholder--gift {
-  background-image: url("../assets/placeholders/gift.svg");
-}
-.visual-placeholder--atelier {
-  background-image: url("../assets/placeholders/atelier.svg");
-}
-.visual-placeholder--boutique {
-  background-image: url("../assets/placeholders/boutique.svg");
-}
-.visual-placeholder--product {
-  background-image: url("../assets/placeholders/product.svg");
-}
-.visual-placeholder--local {
-  background-image: url("../assets/placeholders/local.svg");
-}
-.visual-placeholder--cafe {
-  background-image: url("../assets/placeholders/cafe.svg");
-}
-.visual-placeholder--conseil {
-  background-image: url("../assets/placeholders/conseil.svg");
 }
 .visual-placeholder--journey {
   min-height: 540px;
+  min-height: 620px;
   border-radius: 42px;
 }
 .linia-hero__visual {
@@ -300,6 +262,7 @@ h2 {
 }
 .label-1 {
   left: 10px;
+  left: -10px;
   top: 18%;
 }
 .label-2 {
@@ -312,6 +275,7 @@ h2 {
 }
 .label-4 {
   right: 10px;
+  right: -10px;
   bottom: 28%;
 }
 .linia-section-title {
@@ -355,6 +319,7 @@ article:hover {
 .linia-pathway-card:nth-child(2),
 .linia-pathway-card:nth-child(5) {
   transform: translateY(14px);
+  transform: translateY(26px);
 }
 .path-node {
   position: absolute;
@@ -371,6 +336,7 @@ article:hover {
 }
 .linia-pathway-card__media {
   min-height: 190px;
+  min-height: 210px;
   margin: -6px -6px 18px;
   aspect-ratio: 4 / 3;
 }
@@ -420,6 +386,7 @@ article:hover {
 }
 .wc-product-card .visual-placeholder {
   min-height: 200px;
+  min-height: 220px;
   aspect-ratio: 4 / 3;
 }
 .wc-price {
@@ -498,6 +465,8 @@ article:hover {
     padding: 22px;
     border-bottom: 1px solid var(--kraft);
     box-shadow: var(--shadow);
+    padding: 22px;
+    border-bottom: 1px solid var(--kraft);
   }
   .linia-nav.is-open {
     display: flex;
@@ -556,6 +525,13 @@ article:hover {
   }
   h2 {
     font-size: clamp(1.75rem, 7.8vw, 2.35rem);
+    padding: 62px 0;
+  }
+  h1 {
+    font-size: clamp(2.45rem, 12vw, 3.6rem);
+  }
+  h2 {
+    font-size: clamp(2rem, 9vw, 2.8rem);
   }
   .linia-cta-row .btn,
   .linia-cta-row .text-link {
@@ -576,6 +552,7 @@ article:hover {
   }
   .visual-placeholder--journey {
     min-height: 340px;
+    min-height: 420px;
   }
   .linia-pathway-card:nth-child(n) {
     transform: none;
@@ -586,6 +563,7 @@ article:hover {
     left: 14px;
     right: 14px;
     bottom: max(14px, env(safe-area-inset-bottom));
+    bottom: 14px;
     z-index: 60;
     background: var(--cta);
     color: white;
