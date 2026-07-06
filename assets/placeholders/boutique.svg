@@ -1,3 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1100" height="825" viewBox="0 0 1100 825" preserveAspectRatio="xMidYMid slice" focusable="false">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF5E8"/>
+      <stop offset="0.58" stop-color="#F4E3D2"/>
+      <stop offset="1" stop-color="#D7BFA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <circle cx="154" cy="140" r="148" fill="#FFFDF8" opacity="0.72"/>
+  <circle cx="924" cy="182" r="165" fill="#9AA77B" opacity="0.20"/>
+  <circle cx="825" cy="644" r="182" fill="#E56F6F" opacity="0.13"/>
+  <path d="M80 650 C270 520 410 710 585 560 S820 420 1010 520" fill="none" stroke="#5D694B" stroke-width="12" stroke-linecap="round" opacity="0.34"/>
+  <rect x="190" y="160" width="710" height="430" rx="34" fill="#FFFDF8" opacity="0.82"/>
+  <line x1="250" y1="270" x2="840" y2="270" stroke="#8D745F" stroke-width="12" opacity="0.55"/>
+  <line x1="250" y1="405" x2="840" y2="405" stroke="#8D745F" stroke-width="12" opacity="0.55"/>
+  <rect x="290" y="205" width="58" height="65" rx="10" fill="#8B78C8" opacity="0.65"/>
+  <rect x="380" y="190" width="58" height="80" rx="10" fill="#D8A91E" opacity="0.72"/>
+  <rect x="475" y="220" width="58" height="50" rx="10" fill="#E56F6F" opacity="0.62"/>
+  <circle cx="340" cy="360" r="36" fill="#9AA77B" opacity="0.78"/>
+  <circle cx="460" cy="360" r="36" fill="#C85252" opacity="0.55"/>
+  <circle cx="580" cy="360" r="36" fill="#5D694B" opacity="0.55"/>
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 825" aria-hidden="true" focusable="false">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">

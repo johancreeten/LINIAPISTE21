@@ -234,6 +234,7 @@ h2 {
   z-index: 1;
 }
 .visual-placeholder img {
+  display: block;
   position: absolute;
   inset: 0;
   width: 100%;
