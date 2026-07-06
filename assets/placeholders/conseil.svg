@@ -1,3 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 825" aria-hidden="true" focusable="false">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF5E8"/>
+    <stop offset="0.55" stop-color="#F4E3D2"/>
+    <stop offset="1" stop-color="#D7BFA8"/>
+  </linearGradient>
+  <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3"/>
+    <feColorMatrix type="saturate" values="0.25"/>
+    <feBlend in="SourceGraphic" mode="multiply"/>
+  </filter>
+</defs>
+  <rect width="1100" height="825" fill="url(#bg)"/>
+  <g filter="url(#paper)" opacity="0.95">
+    <circle cx="165" cy="148" r="148" fill="#FFFDF8" opacity="0.72"/>
+    <circle cx="924" cy="165" r="173" fill="#9AA77B" opacity="0.20"/>
+    <circle cx="814" cy="660" r="198" fill="#E56F6F" opacity="0.14"/>
+  </g>
+  <g><path d="M80 650 C270 520 410 710 585 560 S820 420 1010 520" fill="none" stroke="#5D694B" stroke-width="12" stroke-linecap="round" opacity="0.34"/>
+  <rect x="230" y="160" width="420" height="390" rx="28" fill="#FFFDF8" opacity="0.9" transform="rotate(-3 440 355)"/>
+  <line x1="310" y1="260" x2="570" y2="245" stroke="#D7BFA8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="310" y1="335" x2="545" y2="322" stroke="#D7BFA8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="310" y1="410" x2="520" y2="398" stroke="#D7BFA8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="760" cy="285" r="72" fill="#9AA77B" opacity="0.55"/>
+  <path d="M715 285 L750 320 L815 240" fill="none" stroke="#FFFDF8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="680" y1="520" x2="930" y2="230" stroke="#8D745F" stroke-width="18" stroke-linecap="round" opacity="0.72"/>
+</g>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 825" role="img" aria-label="Visuel temporaire Conseil">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">

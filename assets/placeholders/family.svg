@@ -1,3 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 825" aria-hidden="true" focusable="false">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF5E8"/>
+    <stop offset="0.55" stop-color="#F4E3D2"/>
+    <stop offset="1" stop-color="#D7BFA8"/>
+  </linearGradient>
+  <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3"/>
+    <feColorMatrix type="saturate" values="0.25"/>
+    <feBlend in="SourceGraphic" mode="multiply"/>
+  </filter>
+</defs>
+  <rect width="1100" height="825" fill="url(#bg)"/>
+  <g filter="url(#paper)" opacity="0.95">
+    <circle cx="165" cy="148" r="148" fill="#FFFDF8" opacity="0.72"/>
+    <circle cx="924" cy="165" r="173" fill="#9AA77B" opacity="0.20"/>
+    <circle cx="814" cy="660" r="198" fill="#E56F6F" opacity="0.14"/>
+  </g>
+  <g><path d="M80 650 C270 520 410 710 585 560 S820 420 1010 520" fill="none" stroke="#5D694B" stroke-width="12" stroke-linecap="round" opacity="0.34"/>
+  <rect x="180" y="150" width="720" height="360" rx="42" fill="#FFFDF8" opacity="0.72"/>
+  <circle cx="385" cy="280" r="58" fill="#E56F6F" opacity="0.78"/><path d="M300 450 C315 360 455 360 470 450" fill="#E56F6F" opacity="0.5"/>
+  <circle cx="610" cy="325" r="42" fill="#8B78C8" opacity="0.72"/><path d="M545 455 C560 385 660 385 680 455" fill="#8B78C8" opacity="0.42"/>
+  <path d="M270 570 C420 505 560 620 760 535" stroke="#D8A91E" stroke-width="16" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="790" cy="250" r="28" fill="#9AA77B" opacity="0.8"/>
+</g>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 825" role="img" aria-label="Visuel temporaire Famille">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
