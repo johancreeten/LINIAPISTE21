@@ -37,6 +37,7 @@ body {
       transparent 26%
     ),
     linear-gradient(180deg, var(--cream), #fffaf2 44%, var(--paper));
+  background: var(--cream);
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -57,6 +58,7 @@ a {
 }
 .wp-container {
   width: min(1180px, calc(100% - 40px));
+  width: min(1120px, calc(100% - 40px));
   margin: auto;
 }
 .wp-section {
@@ -94,6 +96,7 @@ a {
   margin-left: auto;
   display: flex;
   gap: clamp(8px, 1vw, 14px);
+  gap: 14px;
   align-items: center;
 }
 .linia-nav a,
@@ -446,6 +449,8 @@ article:hover {
     padding: 22px;
     border-bottom: 1px solid var(--kraft);
     box-shadow: var(--shadow);
+    padding: 22px;
+    border-bottom: 1px solid var(--kraft);
   }
   .linia-nav.is-open {
     display: flex;
@@ -534,6 +539,7 @@ article:hover {
     left: 14px;
     right: 14px;
     bottom: max(14px, env(safe-area-inset-bottom));
+    bottom: 14px;
     z-index: 60;
     background: var(--cta);
     color: white;
